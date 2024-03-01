@@ -1,0 +1,7 @@
+to view dynamic moving waveforms and changing values: 
+
+1. bash
+2. sudo apt install gtk-4*
+3. sudo apt install libgtk-4
+4. gcc `pkg-config --cflags gtk4` -o patient_monitor-bin patient_monitor.c `pkg-config --libs gtk4` -lm
+5. ./patient_monitor-bin
